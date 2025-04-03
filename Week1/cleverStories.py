@@ -1,0 +1,23 @@
+print("To begin, let's start with a story:")
+
+
+adjetive = input("adjetive:")
+animal = input("animal:")
+verb = input("verb:")
+exclamation = input("exclamation:")
+verb2 = input("verb:")
+verb3 = input("verb:")
+body = "The other day, I was really in trouble. It all started when I saw a very " + adjetive + " " + animal + " " + verb + " down the hallway. "'"' + (exclamation.capitalize()) + "!"'"' + " I yelled. But all I could think to do was to " + verb2 + " over and over. Miraculously, that caused it to stop, but not before it tried to " + verb3 + " right in front of my family."
+print()
+print(f"Please enter the following:")
+print()
+print(f"adjetive: {adjetive}")
+print(f"animal: {animal}")
+print(f"verb: {verb}")
+print(f"exclamation: {exclamation.capitalize()}")
+print(f"verb: {verb2}")
+print(f"verb: {verb3}")
+print()
+print(f"Your story is:")
+print()
+print(f"{body}")
